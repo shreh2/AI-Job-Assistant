@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Resume Analyzer - AI-ML-Portfolio
 
 ### Resume Analyzer API
@@ -18,3 +19,6 @@ This is one of the projects in my AI-ML series of projects. This an AI-powered r
 - A web hosted UI that candidates can access over the internet
 
 
+=======
+# AI-Job-Assistant
+>>>>>>> f6f09019604c02d4689e0a3d0183670db65ab31e
