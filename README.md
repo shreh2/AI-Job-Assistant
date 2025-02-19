@@ -1,8 +1,5 @@
 <<<<<<< HEAD
-# Resume Analyzer - AI-ML-Portfolio
-
-### Resume Analyzer API
-This is one of the projects in my AI-ML series of projects. This an AI-powered resume analyzer compares resumes to job descriptions using NLP and gives out a score. 
+# # AI-Job-Assistant
 
 **Feature 1:** The resume analyzer spits out a score after comparing the resume and job description. The higher the score the more relevant your resume is for the given job. The user should target a score of above 65 and your resume has a good chance of getting shortlisted by the recruiter
 
@@ -20,5 +17,5 @@ This is one of the projects in my AI-ML series of projects. This an AI-powered r
 
 
 =======
-# AI-Job-Assistant
+
 >>>>>>> f6f09019604c02d4689e0a3d0183670db65ab31e
