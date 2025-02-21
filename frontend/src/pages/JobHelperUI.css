@@ -1,0 +1,303 @@
+/* ============================= */
+/* 🌍 GLOBAL STYLES */
+/* ============================= */
+
+body {
+    background-color: #f4f6f9;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c1218;
+    margin-bottom: 20px;
+}
+
+/* ============================= */
+/* 📂 UPLOAD SECTION */
+/* ============================= */
+
+/* Upload Section Container */
+.upload-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* Upload Box (Resume Upload + Choose File) */
+.upload-box {
+    background: #f8f9fa; /* Light gray background */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #d1d1d1; /* Light gray border */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+
+/* File Input Styling */
+.file-input {
+    padding: 6px;
+    border: 1px solid #bfbfbf;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Job Description Section */
+.job-description-box {
+    background: #f8f9fa; /* Light gray background */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #acacac; /* Light gray border */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* Job Description Label */
+.job-description-box .instruction-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-align: left;
+    width: 100%;
+}
+
+/* Text Area Styling */
+.text-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #575757; /* Default faint border */
+    background: #ffffff;
+    transition: border 0.3s ease-in-out;
+}
+
+/* Dark border on hover and focus */
+.text-input:hover {
+    border: 2px solid #8b8b8b; /* Darker border on hover */
+}
+
+.text-input:focus {
+    border: 2px solid #000; /* Fully black border on focus */
+    outline: none;
+}
+
+/* ============================= */
+/* 🎛️ BUTTONS */
+/* ============================= */
+
+/* Button Container - Center Align Buttons */
+.button-container {
+    display: flex;
+    justify-content: center; /* ✅ Centers buttons horizontally */
+    align-items: center; /* ✅ Aligns buttons in the center vertically */
+    gap: 15px; /* ✅ Adds spacing between buttons */
+    width: 100%;
+}
+
+/* Common button styling */
+.action-button {
+    padding: 12px 18px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Analyze Resume Button */
+.analyze-button {
+    background-color: #15f7eb;
+}
+
+.analyze-button:hover {
+    background-color: #05a39b;
+}
+
+/* Generate CV Button */
+.cv-button {
+    background-color: #28a745;
+}
+
+.cv-button:hover {
+    background-color: #1e7e34;
+}
+
+/* Generate Questions Button */
+.questions-button {
+    background-color: #ff7f50;
+}
+
+.questions-button:hover {
+    background-color: #cc430d;
+}
+
+/* ============================= */
+/* 📊 RESULTS SECTION */
+/* ============================= */
+
+/* Results Section Container */
+.results-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Individual Result Box */
+.result-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: left;
+    min-height: 300px;
+}
+
+/* Match Score Styling */
+.match-score {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* Explanation Styling */
+.match-explanation {
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Optimized Resume & Questions Box */
+.content-box {
+    background: #f7f7f7;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    overflow-y: auto;
+    max-height: 250px;
+}
+/* ============================= */
+/* ✅ AI-GENERATED TEXT HIGHLIGHTS */
+/* ============================= */
+
+.highlight {
+    background-color: #d4edda; /* Light green background */
+    color: #2cb611; /* Dark green text */
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+/* Dynamic Background Colors for Different Result Sections */
+.analyze-bg {
+    background-color: #d1e7fd; /* Light Blue */
+}
+
+.cv-bg {
+    background-color: #d4edda; /* Light Green */
+}
+
+.questions-bg {
+    background-color: #ffe5d1; /* Light Orange */
+}
+
+/* ============================= */
+/* 📝 INTERVIEW QUESTIONS SECTION */
+/* ============================= */
+
+/* Category Header Styling - Ensure Extra Bold Text */
+.question-category {
+    font-size: 22px;  /* ✅ Slightly larger font */
+    font-weight: 900 !important;  /* ✅ Forces extra bold */
+    color: #000000 !important; /* ✅ Ensure it's fully black */
+    background: #f5f4f4; /* ✅ Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: left;
+    display: block;
+}
+
+
+
+/* Remove default list styling */
+.result-box.right ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Alternating Row Colors for Questions */
+.result-box.right li:nth-child(odd) {
+    background: #ececec; /* ✅ Light background for odd rows */
+}
+
+.result-box.right li:nth-child(even) {
+    background: #ececec; /* ✅ Slightly darker background for even rows */
+}
+
+/* Individual Question Styling */
+.result-box.right li {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Better Visibility */
+.result-box.right li:hover {
+    background: #d8e3f0; /* ✅ Subtle blue highlight on hover */
+}
+
+
+/* ============================= */
+/* 📥 DOWNLOAD BUTTONS */
+/* ============================= */
+
+.download-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.download-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.download-button:hover {
+    background-color: #0056b3;
+}

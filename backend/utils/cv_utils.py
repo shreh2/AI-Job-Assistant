@@ -1,5 +1,6 @@
 import openai
 import os
+from utils.resume_utils import extract_text_from_pdf, extract_text_from_docx
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
